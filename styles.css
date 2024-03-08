@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(1, 9, 128);
+    color: whitesmoke;
+    font-family: "Madimi One", sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 8px;
+    border-bottom: 1px solid white;
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+}
+
+main {
+    margin: 20px auto;
+    padding: 8px 12px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
+}
+
+.explicacion {
+    margin: 0 0 20px 0;
+    padding: 0 0 12px 0;
+    border-bottom: 1px solid white;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    height: 100%;
+}
+
+a {
+    color: turquoise;
+}
+
+.principal {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.aEncriptar {
+    margin: 0 auto;
+    margin-bottom: 28px;
+    width: 90%;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 28px;
+    text-align: center;
+    border-bottom: 1px solid white;
+}
+
+label {
+    margin: 0;
+}
+
+textarea {
+    min-width: 50%;
+    max-width: 70%;
+    display: block;
+    margin: 0 auto;
+    padding: 12px;
+    resize: none;
+}
+
+p {
+    margin: 0 0 28px 0;
+}
+
+h2 {
+    margin: 0;
+}
+
+ul {
+    padding: 16px;
+    margin: 0;
+}
+
+.btn-encriptar {
+    padding: 8px 24px;
+    text-align: center;
+    display: block;
+    margin: 0 auto 20px auto;
+    border: none;
+    background-color: rgb(1, 9, 128);
+    border: 2px solid turquoise;
+    color: turquoise;
+    font-weight: bolder;
+    border-radius: 16px;
+}
+
+.sintexto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    min-width: 50%;
+    max-width: 70%;
+    height: auto;
+}
+
+.penguin {
+    border-radius: 10px;
+    aspect-ratio: 1 / 1;
+    width: 50%;
+    max-width: 480px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.madeby {
+    margin: 0 auto;
+}
