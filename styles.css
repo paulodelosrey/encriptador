@@ -107,6 +107,16 @@ ul {
     border-radius: 16px;
 }
 
+#reiniciar {
+    margin: 20px auto 0 auto;
+}
+
+.btn-encriptar:hover {
+    background-color: turquoise;
+    border: 2px solid rgb(1, 9, 128);
+    color: white;
+}
+
 .sintexto {
     display: flex;
     flex-direction: column;

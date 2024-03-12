@@ -21,14 +21,23 @@
       <section class="explicacion">
         <p>
           Este proyecto corresponde al primer Challenge del
-          <a href="">Programa One</a> de <a href="">Oracle Next Education</a> y
-          <a href="">Alura Latam</a>.
+          <a href="https://www.oracle.com/co/education/oracle-next-education/"
+            >Programa One</a
+          >
+          de
+          <a href="https://www.oracle.com/co/education/oracle-next-education/"
+            >Oracle Next Education</a
+          >
+          y
+          <a
+            href="https://www.aluracursos.com/?gad_source=1&gclid=EAIaIQobChMI2fzLrY3vhAMVaoBaBR3VZQ4jEAAYASAAEgKArfD_BwE"
+            >Alura Latam</a
+          >.
         </p>
         <h2>Reglas:</h2>
         <ul>
-          <li>Regla 1</li>
-          <li>Regla 2</li>
-          <li>Regla 3</li>
+          <li>Usa solo letras minusculas</li>
+          <li>No utilices acentos ni caracteres especiales</li>
         </ul>
       </section>
 
@@ -41,18 +50,29 @@
             cols="30"
             rows="10"
           ></textarea>
-          <button type="button" class="btn-encriptar">Encriptar</button>
+          <div>
+            <button id="encriptar" type="button" class="btn-encriptar">
+              Encriptar
+            </button>
+            <button id="desencriptar" type="button" class="btn-encriptar">
+              Desencriptar
+            </button>
+          </div>
         </div>
 
         <div class="sintexto">
-          <p>No has ingresado ningun texto</p>
-          <img class="penguin" src="penguin.gif" alt="" />
+          <p id="parrafo">No has encriptado ningun texto</p>
+          <img class="penguin" src="penguin.gif" alt="" id="gif" />
+          <button id="reiniciar" type="button" class="btn-encriptar">
+            Reiniciar
+          </button>
         </div>
       </section>
     </main>
     <footer>
-      <p class="madeby">Developed by Paulo De los Reyes</p>
+      <p class="madeby">Developed by Paulo De los Reyes 2024</p>
       <a href="https://paulowebdev.netlify.app/">paulowebdev.netlify.app</a>
     </footer>
   </body>
+  <script src="main.js"></script>
 </html>
