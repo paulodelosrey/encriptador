@@ -14,7 +14,7 @@
   </head>
   <body>
     <header>
-      <h1>Encriptador de texto 🤖</h1>
+      <h1>🤖 Encriptador de texto 🤖</h1>
     </header>
 
     <main>
@@ -54,7 +54,12 @@
             <button id="encriptar" type="button" class="btn-encriptar">
               Encriptar
             </button>
-            <button id="desencriptar" type="button" class="btn-encriptar">
+            <button
+              id="desencriptar"
+              type="button"
+              class="btn-encriptar"
+              disabled
+            >
               Desencriptar
             </button>
           </div>
@@ -63,7 +68,19 @@
         <div class="sintexto">
           <p id="parrafo">No has encriptado ningun texto</p>
           <img class="penguin" src="penguin.gif" alt="" id="gif" />
-          <button id="reiniciar" type="button" class="btn-encriptar">
+          <label for="textoEncriptado" id="parrafoTextoEncriptado"
+            >Texto encriptado</label
+          >
+          <textarea
+            name="areaEncriptado"
+            id="textoEncriptado"
+            cols="30"
+            rows="10"
+          ></textarea>
+          <button id="copiar" type="button" class="btn-encriptar" disabled>
+            Copiar
+          </button>
+          <button id="reiniciar" type="button" class="btn-encriptar" disabled>
             Reiniciar
           </button>
         </div>

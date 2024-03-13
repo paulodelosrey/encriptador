@@ -107,7 +107,7 @@ ul {
     border-radius: 16px;
 }
 
-#reiniciar {
+#reiniciar, #copiar  {
     margin: 20px auto 0 auto;
 }
 
@@ -134,6 +134,20 @@ ul {
     max-width: 480px;
 }
 
+#parrafoTextoEncriptado {
+    margin: 0 auto 28px auto;
+    display: none;
+}
+
+#textoEncriptado {
+    display: none;
+    min-width: 50%;
+    max-width: 70%;
+    margin: 0 auto;
+    padding: 12px;
+    resize: none;
+}
+
 footer {
     display: flex;
     flex-direction: column;
@@ -143,3 +157,10 @@ footer {
 .madeby {
     margin: 0 auto;
 }
+
+/* @media (min-width: 780px) {
+    .principal {
+        display: flex;
+        flex-direction: row;
+    }
+} */
